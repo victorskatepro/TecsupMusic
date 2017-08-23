@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TecsupMusic</string>
+    <string name="txt_main_lovemusic">LOVE MUSIC</string>
+    <string name="txt_main_card1songs">23 songs</string>
+    <string name="txt_band1">Greenday</string>
+    <string name="txt_main">Pxndx</string>
+    <string name="txt_main_numsongs2">19 songs</string>
+    <string name="txt_main_band3">Strokes</string>
+    <string name="txt_main_numband3">51 songs</string>
+    <string name="txt_main_bandname4">Smiths</string>
+    <string name="txt_main_numband4">24 songs</string>
+    <string name="txt_mainlist_rock">Rock</string>
+    <string name="txt_mainlist_my_playlist">my playlist</string>
+    <string name="txt_mainlist_21_songs">21 songs</string>
+    <string name="txt_21_guns">21 Guns</string>
+    <string name="txt_3_02">3:02</string>
+    <string name="txt_boulevard_of_broken">Boulevard of Broken</string>
+    <string name="txt_4_22">4:22</string>
+    <string name="txt_love">Love</string>
+    <string name="txt_5_23">5:23</string>
+    <string name="txt_bullet">Bullet</string>
+    <string name="txt_2_22">2:22</string>
+</resources>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="visctorsaico.tecsup.tecsupmusic.MainHomeActivity"
+    android:background="@color/fondomain">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm_main_fondo_height"
+                >
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:scaleType="centerCrop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/bg_fondomusica2"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+                <LinearLayout
+                    android:layout_marginTop="@dimen/layouttop_main_txtfondo"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txtportadaprincipal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/txt_main_lovemusic"
+                        android:textColor="@color/primary_dark"
+                        android:textSize="@dimen/texsixze_main_txtprincipal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="this season top 20 albums"
+                        android:textColor="@color/primary_dark"
+                        android:textSize="@dimen/txtsize_main_txtsecundario"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/margin_main_linerlayout">
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/marginrigth_main_cardview"
+                    android:layout_weight="1"
+                    app:cardElevation="@dimen/cardelevation_main_cardview">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/layout_horizontal_main_cardview"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/bg_greenday_album" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:padding="@dimen/padding_main_cardview">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/txt_band1"
+                                    android:textColor="@color/primary_text"
+                                    android:textSize="@dimen/txtsize_main_namebanda" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/txt_main_card1songs"
+                                    android:textColor="@color/secondary_text" />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/imageView5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                app:srcCompat="@mipmap/ic_play" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/marginrigth_main_cardview"
+                    android:layout_weight="1"
+                    app:cardElevation="@dimen/cardelevation_main_cardview">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/layout_horizontal_main_cardview"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/bg_pxndx" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:padding="@dimen/padding_main_cardview">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/txt_main"
+                                    android:textColor="@color/primary_text"
+                                    android:textSize="@dimen/txtsize_main_namebanda" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/txt_main_numsongs2"
+                                    android:textColor="@color/secondary_text" />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/imageView3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                app:srcCompat="@mipmap/ic_play" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/margin_main_linerlayout">
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/marginrigth_main_cardview"
+                    android:layout_weight="1"
+                    app:cardElevation="@dimen/cardelevation_main_cardview">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView22"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/layout_horizontal_main_cardview"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/bg_the_strokes" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:padding="@dimen/padding_main_cardview">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/txt_main_band3"
+                                    android:textColor="@color/primary_text"
+                                    android:textSize="@dimen/txtsize_main_namebanda" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/txt_main_numband3"
+                                    android:textColor="@color/secondary_text" />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/imageView51"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                app:srcCompat="@mipmap/ic_play" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/marginrigth_main_cardview"
+                    android:layout_weight="1"
+                    app:cardElevation="@dimen/cardelevation_main_cardview">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView11"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/layout_horizontal_main_cardview"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/bg_the_smiths" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:padding="@dimen/padding_main_cardview">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/txt_main_bandname4"
+                                    android:textColor="@color/primary_text"
+                                    android:textSize="@dimen/txtsize_main_namebanda" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/txt_main_numband4"
+                                    android:textColor="@color/secondary_text" />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/imageView31"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                app:srcCompat="@mipmap/ic_play" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+</ScrollView>
